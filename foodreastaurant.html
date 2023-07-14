@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Reastaurant</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="Images/logo.png"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+                <input class="form-control h-10" type="text" placeholder="search"/>
+                <a href="#order"><button class="orderbtn">Order</button></a>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div id="home" class="home-section">
+        <div class="container">
+          <h1>Welcome to Food Lover Restaurant</h1>
+          <p>Experience the flavors of authentic Indian cuisine</p>
+        </div>
+    </div>
+    <div id="menu" class="featured-dishes">
+        <div class="container">
+          <h2>Our Menu</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="featured-dish">
+                <img src="images/dish-1.jpg" alt="Dish 1">
+                <h3>BIRYANI</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A non provident perspiciatis alias itaque esse aliquid at aut reiciendis animi?facilis molestias molestiae
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="featured-dish">
+                <img src="images/dish-2.jpg" alt="Dish 2">
+                <h3>STARTER</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptate amet doloribus distinctio voluptatem nesciunt ducimus atque facilis molestias molestiae?</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="featured-dish">
+                <img src="images/dish-3.jpg" alt="Dish 3">
+                <h3>KEBAB</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit repellat esse exercitationem nulla totam, blanditiis ex praesentium veniam rerum nostrum!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div id="about" class="about">
+        <div class="container bg-dark">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies velit eget ex fermentum tempus.
+                     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ac lacinia
+                     arcu. Vivamus sollicitudin odio in mi accumsan feugiat.</p>
+                </div>
+                <div class="col-md-6 aboutimage">
+                    <img src="Images/about.avif"/>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div id="chefs" class="chefs">
+            <div class="container">
+            <h2>Chefs</h2>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="chefscard">
+                    <img src="images/chef-1.jpg" alt="chef 1">
+                    <h3>ChefOne</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A non provident perspiciatis alias itaque esse aliquid at aut reiciendis animi?facilis molestias molestiae
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="chefscard">
+                    <img src="images/chef-1.jpg" alt="chef 2">
+                    <h3>ChefTwo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptate amet doloribus distinctio voluptatem nesciunt ducimus atque facilis molestias molestiae?</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="chefscard">
+                    <img src="images/chef-3.jpg" alt="chef 3">
+                    <h3>ChefThree</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit repellat esse exercitationem nulla totam, blanditiis ex praesentium veniam rerum nostrum!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer1 bg-dark">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contactUS" id="address">
+                    <h4>Address:</h4>
+                    <p>
+                       297/89-01,<br/>
+                       Second street,Vinayak Nagar<br/>
+                       Gachibowli,<br/>
+                       Contact Number :+91-040-292-2832
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="order" id="order">
+                    <h3>Order Food</h3>
+                    <div class="form-group">
+                        <select class="form-control" id="food_item">
+                            <option value="0"> Select Food Item ... </option>
+                            <option value="1"> Chicken Biryani </option>
+                            <option value="2"> Starters </option>
+                            <option value="3"> Kebabs</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="delivery_type" onchange="finalCost()">
+                            <option value="0"> Delivery Type - </option>
+                            <option value="1"> Normal </option>
+                            <option value="2"> Fast </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="delivery_area">
+                            <option value="0"> Select Delivery Area ... </option>
+                            <option value="1"> Madhapur </option>
+                            <option value="2"> Gachibowli </option>
+                            <option value="3"> Ameerpet  </option>
+                            <option value="4"> Jubli </option>
+                            <option value="5"> LB Nagar </option>
+                            <option value="6"> HighTech City </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="food_quantity" placeholder="Quantity" >
+                        <label class="cost">Total Cost ($) : </label>
+                        <span id="result">0</span>
+                        <button class="placeOrder">Submit</button>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
+    <footer class="page-footer font-small cyan darken-3 bg-light">
+        <div class="container" id="contact">
+            <h4>Contact US :</h4>
+      <div class="row">
+        <div class="col-md-12 py-4" id="icons">
+          <div class="mb-5">
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="pin-ic">
+              <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-1 bg-dark" style="color:rgb(232, 163, 36);">© 2020 Copyright:
+      <a href="/"> foodlover.com</a>
+    </div>
+    </footer>
+</body>
+</html>
