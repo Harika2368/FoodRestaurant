@@ -1,7 +1,7 @@
 img{
     height:50px;
 }
-.navbar-nav .nav-item:hover{
+.nav-item a:hover{
     color: rgb(243, 167, 35);
 }
 .orderbtn{
@@ -54,7 +54,7 @@ img{
   .featured-dish img {
     width: 100%;
     max-width: 300px;
-    height: auto;
+    height: 15vw;
     margin-bottom: 20px;
   }
 
@@ -94,9 +94,12 @@ img{
     color: #fcb001;
     text-align: center;
   }
+  .featured-dish :hover{
+    border: solid 4px #fcb001;
+  }
   .chefscard img{
     width: 90%;
-    height: 90%;
+    height: 30vw;
     border:solid 2px black;
   }
   .chefscard h3{
@@ -137,6 +140,9 @@ img{
     background-color: #fcb001;
     color: white;
     margin-top: 10px;
+    border-radius: 2px;
+    padding: 0px 15px;
+    
 }
 #contact h4{
     color: #fcb001;
@@ -147,5 +153,11 @@ img{
 }
 #icons{
     text-align:center;
-    
+    color: #fcb001;
+}
+#icons a{
+  color: #fcb001;
+}
+#icons a:hover{
+  color:black ;
 }
